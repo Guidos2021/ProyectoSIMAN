@@ -23,3 +23,8 @@ git switch -c "nombre rama" <<==>> Crear una nueva rama
 git remote add origin "Link del repositorio del GitHub" <<==>> conexion a GitHub 
 
 git push origin master <<==>> subir rama master a GitHub, (Commit)
+
+Siempre al crear commit y subirlo al GitHub
+git add . <<==>> Agregar archivos
+git commit -m "Nombre del Commit" <<==>> Commit del proyecto
+git push origin master <<==>> subir rama master a GitHub, (Commit)
