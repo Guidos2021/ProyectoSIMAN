@@ -1,0 +1,25 @@
+git --version <<==>> Ver la version del Git
+git config --globar user.name "Guidos" <<==>> Nombre de Usuario
+git config --globar user.mail "Guidos" <<==>> Correo de Usuario
+
+
+<<==>>Entrar en la carpeta creada en Disco C: y escribir cmd en la barra 
+de busqueda para entar al cmd de la carpeta
+
+echo hola mundo > "index.html" <<==>> Crear un archivo dentro de la carpeta
+
+git init <<==>> Crear repositorio
+code . <<==>> Abrir Visual Code
+
+git status <<==>> Estado del archivo
+git add . <<==>> Agregar archivos
+git commit -m "Nombre del Commit" <<==>> Commit del proyecto
+git log <<==>> historial de commit
+git chechout "codigo de commit" <<==>> Volver a un commit segun su codigo
+git branch <<==>> mostrar rama del repositorio
+git switch master <<==>> volver a la rama master
+git switch -c "nombre rama" <<==>> Crear una nueva rama
+
+git remote add origin "Link del repositorio del GitHub" <<==>> conexion a GitHub 
+
+git push origin master <<==>> subir rama master a GitHub, (Commit)
